@@ -19,7 +19,7 @@ A simple Node.js application demonstrating database migrations with PostgreSQL u
 
 ```
 ├── migrations/
-│   └── 1698765432345_create-todos-table.js
+│   └── create-todos-table.js
 ├── .env.example
 ├── .env
 ├── index.js
