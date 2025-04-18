@@ -1,25 +1,23 @@
 Node.js PostgreSQL Todo Application
-
-A simple Node.js application demonstrating database migrations with PostgreSQL using node-pg-migrate.
+This is a simple Node.js application designed to demonstrate database migrations and integration with PostgreSQL using node-pg-migrate. The project is built with a focus on ease of use and environment-based configuration.
 
 Features
-
-PostgreSQL database integration
-Database migrations using node-pg-migrate
-Environment-based configuration
-Simple todo management system
+- Seamless PostgreSQL database integration
+- Efficient database migrations powered by node-pg-migrate
+- Environment-based configurations for flexibility
+- A straightforward todo management system
 
 Prerequisites
-
-Node.js (v14 or higher)
-PostgreSQL database server
-npm (Node Package Manager)
+- Node.js (version 14 or higher)
+- PostgreSQL database server
+- npm (Node Package Manager)
 
 Project Structure
-
-├── migrations/
+├── migrations
 │   └── create-todos-table.js
 ├── .env.example
 ├── .env
 ├── index.js
+
+
 
